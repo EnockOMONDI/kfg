@@ -553,7 +553,7 @@ li {
 .main-nav__header-one__top {
     position: relative;
     display: block;
-    background: var(--thm-black);
+    background: var(--thm-white);
     padding: 2px 0;
 }
 
@@ -564,7 +564,7 @@ li {
     content: "";
     left: 0;
     right: -100000000px;
-    background: var(--thm-black);
+    background: var(--thm-white);
     z-index: -1;
 }
 
