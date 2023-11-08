@@ -55,8 +55,9 @@ font-family: 'Rubik', sans-serif;
     --thm-primary-rgb: 255, 109, 18;
     --thm-black: #24202b;
     --thm-black-rgb: 44, 39, 52;
-    --thm-gray: #88858e;
+    --thm-gray: #bebebe;
     --thm-border-radius: 8px;
+    --thm-white:#ffffff;
 }
 
 body {
@@ -1043,7 +1044,7 @@ li {
 .main-nav__header-two {
     position: relative;
     display: block;
-    background: rgba(44, 39, 52, .70);
+    background: rgba(255, 255, 255);
     border-bottom: 1px solid rgba(255, 255, 255, .1);
 }
 
@@ -1096,7 +1097,7 @@ li {
 }
 
 .main-nav__header-two .main-nav__main-navigation .main-nav__navigation-box>li>a {
-    color: #ffffff;
+    color: #f37697;
     text-transform: capitalize;
 }
 
@@ -1136,7 +1137,7 @@ li {
 
 
 .main-nav__header-two .stricked-menu {
-    background: var(--thm-black);
+    background: var(--thm-white);
 }
 
 
@@ -3533,12 +3534,12 @@ li {
     height: 100%;
     width: 100%;
     content: "";
-    background: rgba(243,118,151, .95);
+    background: rgba(255, 255, 255);
 }
 
 .footer-widget__text {
     font-size: 16px;
-    color: #ffffff;
+    color: rgba(243,118,151);;
     margin: 0;
     padding-top: 20px;
     padding-bottom: 19px;
@@ -3561,8 +3562,8 @@ li {
     text-align: center;
     width: 40px;
     height: 40px;
-    background-color: #ec99c1;
-    color: #ffffff;
+    background-color: #ffffff ;
+    color: #f37697;
     font-size: 15px;
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
@@ -3574,15 +3575,15 @@ li {
 }
 
 .site-footer__social a.clr-fb {
-    background: #ec99c1;
+    background: #ffffff;
 }
 
 .site-footer__social a.clr-dri {
-    background: #ec99c1;
+    background: #ffffff;
 }
 
 .site-footer__social a.clr-ins {
-    background: #ec99c1;
+    background: #ffffff;
 }
 
 .site-footer__social a:hover {
@@ -3591,7 +3592,7 @@ li {
 
 .footer-widget__title {
     font-size: 22px;
-    color: #ffffff;
+    color: #f37697;
     line-height: 32px;
     margin-bottom: 20px;
 }
@@ -3607,7 +3608,7 @@ li {
 }
 
 .footer-widget__explore-list li a {
-    color: #ffffff;
+    color: #f37697;
     font-size: 16px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
@@ -3651,13 +3652,13 @@ li {
 }
 
 .footer-widget__contact-list li .text p {
-    color: #ffffff;
+    color: #f37697;
     font-size: 16px;
     margin: 0;
 }
 
 .footer-widget__contact-list li .text p a {
-    color: #ffffff;
+    color: #f37697;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -3667,7 +3668,7 @@ li {
 }
 
 .footer-widget__support-text {
-    color: #ffffff;
+    color: #f37697;
     font-size: 16px;
     margin: 0;
     padding-top: 3px;
@@ -3676,7 +3677,7 @@ li {
 
 .footer-widget__support-btn a {
     font-size: 14px;
-    color: #ffffff;
+    color: #f37697;
     font-weight: 700;
     background: var(--thm-primary);
     display: inline-block;
