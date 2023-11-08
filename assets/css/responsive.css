@@ -1440,8 +1440,8 @@
     .main-nav__left-three .side-menu__toggler {
         position: relative;
         float: right;
-        margin: 0;
-        padding: 43px 0;
+        margin: -15px;
+        
         padding-right: 35px;
     }
 
@@ -1456,6 +1456,13 @@
         display: block;
     }
 
+}
+@media (max-width: 768px) {
+    .main-nav__left-three .logo {
+        display: block;
+        width: 300px; /* Set your desired width */
+        height: auto; /* Maintain aspect ratio */
+    }
 }
 
 
