@@ -1431,7 +1431,13 @@
     .main-nav__left-two .logo-two {
         float: left;
     }
-
+    @media (max-width: 768px) {
+        .main-nav__left-three .logo-two {
+            display: block;
+            width: 300px; /* Set your desired width */
+            height: auto; /* Maintain aspect ratio */
+        }
+    }
 
     .main-nav__right-three {
         display: none;
